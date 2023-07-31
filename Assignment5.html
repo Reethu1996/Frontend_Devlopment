@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form creation(without form tag)</title>
+    </head>
+    <body>
+        <fieldset>
+        <legend>User details</legend>
+        <label for="fname">FirstName:</label>
+        <input type="text" name="Firstname" id="fname"><br>
+        <label for="lname">LastName:</label>
+        <input type="text" name="Lastname" id="lname"><br>
+        <label for="mail">Email:</label>
+        <input type="email" name="mail" id="mail"><br>
+    
+</fieldset>
+<fieldset>
+    <legend>User Review</legend>
+        <label>How did you hear about us?</label>
+        <select>
+            <option>Google</option>
+            <option>Social media</option>
+            <option>Friends</option>
+            <option>Pamplets marketing</option>
+        </select><br>
+        <label>Would you Visit again?</label><br>
+        <input type="radio" name ="interest" id="y">
+        <label for="y">Yes</label>
+        <input type="radio" name="interest" id="n">
+        <label for="n">No</label>
+        <input type="radio" name="interest" id="y/n">
+        <label for="y/n">Maybe</label><br>
+        <label>Comments:</label><br>
+        <textarea type="comment">write your comments here...</textarea><br>
+        <input type="checkbox" name="Cbox" id="Cbox">
+        <label for="Cbox">Sign me up for email updates</label><br>
+        <input type="Submit" value="Submit Review">
+    </fieldset>
+    </body>
+</html>
